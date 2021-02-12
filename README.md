@@ -20,3 +20,19 @@
     SCSS Formatter
 
 
+## Declarando Variáveis
+
+Em SASS podemos declarar variáveis para facilitar o reuso de cores, margens, ou qualquer outro 
+atributo que quisermos.
+
+Declarando uma cor:
+
+    $dark: #222;
+
+Utilizando a variável:
+
+    body {
+
+        background-color: $dark;
+        
+    }
