@@ -5,11 +5,18 @@
 ### Guia
 [Guia](https://www.notion.so/maykbrito/SASS-0ae90c9c85474e8caf1e5df8620aa3e4)
 
+### Vídeo de Referência
+
+[vídeo](https://www.youtube.com/watch?v=BaI8dHUthLA&t=1782s)
+
 
 ### Instalação
 
     npm i -g sass (sudo npm i -g sass)
 
-### Extensão vs code
+### Extensões vs code
 
     live sass compiler
+    SCSS Formatter
+
+
