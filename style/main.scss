@@ -22,8 +22,19 @@
         background-color: #222;
         
     } 
+}
 
+@mixin theme($tema) {
 
+    @if $tema == azul {
+
+        background-color: blue;
+    
+    } @else if $tema == vermelho{
+
+        background-color: red;
+
+    }    
 }
 
 
@@ -47,7 +58,7 @@ $pink: rgb(226, 30, 144);
 body{
 
     background-color: $primary;
-    @include dark(true);
+    @include theme(vermelho);
 }
 
 h1{

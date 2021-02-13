@@ -126,6 +126,8 @@ Passamos o parâmetro dentro dele.
 
 ## Condiconais (@if @else if @else)
 
+
+
 #### @if
 
 Testando se uma condição é atendida para que uma propriedade seja aplicada
@@ -148,4 +150,33 @@ Chamando o mixin com a condicional
 
         background-color: $primary;
         @include dark(true);
+    }
+
+
+
+
+#### @else if
+
+
+
+    @mixin theme($tema) {
+
+        @if $tema == azul {
+
+            background-color: blue;
+    
+        } @else if $tema == vermelho{
+
+            background-color: red;
+
+        }    
+    }
+
+
+Chamando o mixin com a condicional
+
+    body{
+
+        background-color: $primary;
+        @include theme(vermelho);
     }
