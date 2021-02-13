@@ -1,3 +1,9 @@
+h3 {
+  color: white;
+  border-radius: 5px;
+  background-color: #333232;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +20,12 @@ h1 {
   margin: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
 h2 {
   color: #e21e90;
 }
@@ -21,5 +33,59 @@ h2 {
 .center {
   text-align: center;
   font-family: arial;
+}
+
+button {
+  background-color: #e21e90;
+  border-radius: 7px;
+  width: 100px;
+  height: 50px;
+  outline: none;
+  -webkit-box-shadow: 1px 1px 17px #e21e90;
+          box-shadow: 1px 1px 17px #e21e90;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  border: 2px solid #e21e90;
+}
+
+.block {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container {
+  background-color: whitesmoke;
+  width: 300px;
+  height: 300px;
+  border-radius: 7px;
+}
+
+.container .box-out {
+  background-color: #4556f1;
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+}
+
+.container .box-out .box-in {
+  background-color: #e21e90;
+  width: 100px;
+  height: 100px;
+  border-radius: 7px;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

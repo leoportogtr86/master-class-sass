@@ -1,0 +1,21 @@
+{
+  "name": "master-class-sass",
+  "version": "1.0.0",
+  "description": "![](https://miro.medium.com/max/1200/1*kXElS1Y6s3HDgdZELh4smQ.png) # Anotações do Master Class da Rocketseat de SASS com Maik Brito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoportogtr86/master-class-sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoportogtr86/master-class-sass/issues"
+  },
+  "homepage": "https://github.com/leoportogtr86/master-class-sass#readme"
+}

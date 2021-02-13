@@ -23,6 +23,8 @@
 
     npx lite-server
 
+    npm start
+
 ## Declarando Variáveis
 
 Em SASS podemos declarar variáveis para facilitar o reuso de cores, margens, ou qualquer outro 
@@ -56,3 +58,38 @@ Para depois no main.css importá-lo assim:
     @import 'style2';
 
 
+## Encadeamento
+
+Assim como em uma linguagem de programação, podemos criar escopos e fazer encadeamento no SASS
+
+
+    .container{
+
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+   
+
+    .box-out{
+
+        background-color: #4556f1;
+        width: 200px;
+        height: 200px;
+        border-radius: 7px;
+        
+
+
+
+        .box-in{
+
+            background-color: $pink;
+            width: 100px;
+            height: 100px;
+            border-radius: 7px;
+
+
+
+            }
+        }
+    }

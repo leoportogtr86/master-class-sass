@@ -8,6 +8,7 @@ $pink: rgb(226, 30, 144);
 
 
 
+
 *{
 
     margin: 0;
@@ -27,6 +28,12 @@ h1{
     text-align: center;
     font-family: $sans;
     margin: 10px;
+
+    @media screen and (max-width: 600px) {
+
+        font-size: 24px;
+        
+    }
 }
 
 h2{
@@ -38,4 +45,68 @@ h2{
 
     text-align: center;
     font-family: $arial;
+}
+
+button{
+
+    background-color: $pink;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    box-shadow: 1px 1px 17px $pink;
+    color: white;
+    font-family: $sans;
+    font-weight: bold;
+    margin: 20px;
+    border: 2px solid $pink;
+
+}
+
+
+.block{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.container{
+
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+   
+
+    .box-out{
+
+        background-color: #4556f1;
+        width: 200px;
+        height: 200px;
+        border-radius: 7px;
+        
+
+
+
+        .box-in{
+
+            background-color: $pink;
+            width: 100px;
+            height: 100px;
+            border-radius: 7px;
+
+
+
+        }
+    }
+}
+
+.flex-center{
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
 }
