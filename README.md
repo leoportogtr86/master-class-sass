@@ -60,7 +60,9 @@ Para depois no main.css importá-lo assim:
 
 ## Encadeamento
 
-Assim como em uma linguagem de programação, podemos criar escopos e fazer encadeamento no SASS
+Assim como em uma linguagem de programação, podemos criar escopos e fazer encadeamento no SASS.
+
+Obs: Variáveis criadas dentro do escopo, só existirão naquele escopo.
 
 
     .container{
