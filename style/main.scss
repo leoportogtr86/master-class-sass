@@ -15,9 +15,20 @@
     
 }
 
+@mixin dark ($bool){
+
+    @if $bool == true {
+
+        background-color: #222;
+        
+    } 
 
 
-$primary: #222;
+}
+
+
+
+$primary: rgb(245, 244, 244);
 $sans: sans-serif;
 $arial: arial;
 $pink: rgb(226, 30, 144);
@@ -36,6 +47,7 @@ $pink: rgb(226, 30, 144);
 body{
 
     background-color: $primary;
+    @include dark(true);
 }
 
 h1{

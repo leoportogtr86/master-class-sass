@@ -121,3 +121,21 @@ Aqui passamos uma variável que irá representar o border-radius
     @include borda-arredondada-azul(7px);
 
 Passamos o parâmetro dentro dele.    
+
+
+
+## Condiconais (@if @else if @else)
+
+
+Testando se uma condição é atendida para que uma propriedade seja aplicada
+
+    @mixin dark ($bool){
+
+        @if $bool == true {
+
+            background-color: #222;
+        
+        } 
+
+
+    }
