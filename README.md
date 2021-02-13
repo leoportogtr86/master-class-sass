@@ -140,3 +140,12 @@ Testando se uma condição é atendida para que uma propriedade seja aplicada
 
 
     }
+
+
+Chamando o mixin com a condicional
+
+    body{
+
+        background-color: $primary;
+        @include dark(true);
+    }
