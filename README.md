@@ -95,3 +95,29 @@ Obs: Variáveis criadas dentro do escopo, só existirão naquele escopo.
             }
         }
     }
+
+
+## @mixin e @include
+
+Possui a mesma lógica de uma função em linguagem de programação, podendo receber parâmetros
+e ser invocada em outras partes do nosso código.
+
+
+#### Criando o mixin
+
+    @mixin borda-arredondada-azul ($border-radius) {
+
+        border-radius: $border-radius;
+        border: 1px solid blue;    
+    }
+
+Aqui passamos uma variável que irá representar o border-radius    
+
+
+
+#### Invocando o mixin (@include)
+
+
+    @include borda-arredondada-azul(7px);
+
+Passamos o parâmetro dentro dele.    

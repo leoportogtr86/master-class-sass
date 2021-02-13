@@ -1,5 +1,21 @@
 @import 'style2';
 
+@mixin borda-arredondada-azul ($border-radius) {
+
+    border-radius: $border-radius;
+    border: 1px solid blue;    
+}
+
+@mixin  fundo-branco-quadrado($lado) {
+
+    background-color: white;
+    width: $lado;
+    height: $lado;
+
+    
+}
+
+
 
 $primary: #222;
 $sans: sans-serif;
@@ -109,4 +125,12 @@ button{
     justify-content: center ;
     align-items: center;
 
+}
+
+
+.mixin{
+
+    @include borda-arredondada-azul(7px);
+    @include fundo-branco-quadrado(200px);
+    color: red;
 }

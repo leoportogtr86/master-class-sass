@@ -88,4 +88,13 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.mixin {
+  border-radius: 7px;
+  border: 1px solid blue;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  color: red;
+}
 /*# sourceMappingURL=main.css.map */
