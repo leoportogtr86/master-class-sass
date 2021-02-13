@@ -103,7 +103,7 @@ Possui a mesma lógica de uma função em linguagem de programação, podendo re
 e ser invocada em outras partes do nosso código.
 
 
-#### Criando o mixin
+#### Criando o mixin (@mixin)
 
     @mixin borda-arredondada-azul ($border-radius) {
 
