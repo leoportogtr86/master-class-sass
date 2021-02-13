@@ -19,6 +19,9 @@
     live sass compiler
     SCSS Formatter
 
+### Rodando o Projeto com Lite Server
+
+    npx lite-server
 
 ## Declarando Variáveis
 
@@ -36,3 +39,20 @@ Utilizando a variável:
         background-color: $dark;
         
     }
+
+
+## Import e Export
+
+Podemos criar outro arquivos .scss e ao nomear o arquivo, colocamos o "_" na frente para evitar
+que ele seja compilado.
+
+
+ex:
+    _style2.scss
+
+
+Para depois no main.css importá-lo assim:
+
+    @import 'style2';
+
+

@@ -13,4 +13,13 @@ h1 {
   font-family: sans-serif;
   margin: 10px;
 }
+
+h2 {
+  color: #e21e90;
+}
+
+.center {
+  text-align: center;
+  font-family: arial;
+}
 /*# sourceMappingURL=main.css.map */

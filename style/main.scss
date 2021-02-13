@@ -1,4 +1,10 @@
+@import 'style2';
+
+
 $primary: #222;
+$sans: sans-serif;
+$arial: arial;
+$pink: rgb(226, 30, 144);
 
 
 
@@ -6,6 +12,7 @@ $primary: #222;
 
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -18,7 +25,17 @@ h1{
 
     color: #4556f1;
     text-align: center;
-    font-family: sans-serif;
+    font-family: $sans;
     margin: 10px;
 }
 
+h2{
+
+    color: $pink;
+}
+
+.center{
+
+    text-align: center;
+    font-family: $arial;
+}
